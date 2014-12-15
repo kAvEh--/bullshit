@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/turn"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:background="#ccc" />
+
+    <TextView
+        android:id="@+id/x"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#145278" />
+
+    <TextView
+        android:id="@+id/y"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/x"
+        android:layout_centerHorizontal="true"
+        android:background="#456912" />
+
+    <com.example.football.FootMap
+        android:id="@+id/tt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="40dp"
+        android:background="#FFF" />
+
+    <TextView
+        android:id="@+id/goal"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>
